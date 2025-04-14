@@ -1,5 +1,5 @@
 <x-layout>
-    <section class="panashe bg-blue-950 bg-center bg-cover pt-40" style="background-image: url(images/fereri.png)">
+    <section class="panashe bg-blue-950 bg-center bg-cover pt-40" style="background-image: url(images/Glowbanner.jpg)">
     </section>
     <header class="bg-gray-100 border-b border-gray-300 w-full md:w-3/5 mx-auto">
         <div class="max-w-7xl py-10">

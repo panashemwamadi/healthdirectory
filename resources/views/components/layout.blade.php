@@ -60,7 +60,7 @@
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
                             <x-navbar-link href="/buy" :active="request()->is('buy')">Buy</x-navbar-link>
-                            <x-navbar-link href="/sell" :active="request()->is('sell')">Sell</x-navbar-link>
+                            
                             <x-navbar-link href="/about" :active="request()->is('about')">About</x-navbar-link>
                             <x-navbar-link href="/more" :active="request()->is('more')">More</x-navbar-link>
                             <x-navbar-link href="/contact" :active="request()->is('contact')">Contact</x-navbar-link>

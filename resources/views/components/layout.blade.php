@@ -62,7 +62,7 @@
                             <x-navbar-link href="/buy" :active="request()->is('buy')">Buy</x-navbar-link>
                             
                             <x-navbar-link href="/about" :active="request()->is('about')">About</x-navbar-link>
-                            <x-navbar-link href="/more" :active="request()->is('more')">More</x-navbar-link>
+                            
                             <x-navbar-link href="/contact" :active="request()->is('contact')">Contact</x-navbar-link>
                             
                             <button type="button" class="flex items-center justify-center text-white bg-green-600 hover:bg-green-700 focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-4 py-2 transition duration-300 ease-in-out transform hover:scale-105">

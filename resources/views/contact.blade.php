@@ -30,11 +30,15 @@
         <p class="mb-3 font-normal text-gray-500 dark:text-gray-400 md:px-24 space-y-3 font-serif ">
             
             <h class="text-red-900 mx-auto font-bold  text-xl"><u>Our Primary Office</u></h><br><br>
-            Stand No. 32 Nigel Philip Avenue,<br> Eastlea, HARARE <br><br>
+            87 Rashpeak<br>
+            Off Malvern Road<br>
+            Waterfalls<br>
+            Harare<br>  <br><br>
     
             
             <h class="text-red-900 mx-auto font-bold  text-xl"><u>EMAIL ADDRESS</u></h><br><br>
-           glowtrackauctions@gmail.com<br><br>
+           glowtrackauctions@gmail.com<br>
+           glowtrack@co.zw<br>
     
             <h class="text-red-900 mx-auto font-bold  text-xl"><u>Phone Numbers</u></h><br><br>
             +26377 2582201<br> +26371 5980838<br> +263716 582201<br> +26377 2545589  <br><br>
@@ -52,7 +56,7 @@
     
              </div>
              
-               </main>
+</main>
        
     
 </x-layout>

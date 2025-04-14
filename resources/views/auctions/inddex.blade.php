@@ -36,13 +36,27 @@
         .auction-card:hover {
             transform: translateY(-5px);
         }
+        
+        .ended-message {
+            font-weight: bold;
+            color: #dc3545;
+            padding: 10px;
+            text-align: center;
+            background-color: #f8d7da;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        
+        .winner-message {
+            font-weight: bold;
+            color: #28a745;
+            padding: 10px;
+            text-align: center;
+            background-color: #d4edda;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
     </style>
-
-    <script>
-        document.querySelector('.floating-button').addEventListener('click', function() {
-            window.location.href = '/admin/items/create';
-        });
-    </script>
 
     <div class="container md:mx-auto mt-36 md:text-center md:p-10">
         <h1 class="font-bold text-2xl mb-6">Active Auctions</h1>
@@ -68,9 +82,39 @@
                         </div>
                     </div>
 
-                    @if ($auction->is_active && now()->isBefore($auction->deadline))
-                        <div class="countdown font-extrabold py-5 text-red-900 text-center" data-deadline="{{ $auction->deadline }}"></div>
+                    @if ($auction->is_active)
+                    @if(now()->isBefore($auction->deadline))
+                        <div class="countdown font-extrabold py-5 text-red-900 text-center" 
+                             data-deadline="{{ $auction->deadline }}">
+                        </div>
+                    @else
+                        <div class="ended-message">
+                            Auction has ended - no more bids accepted
+                        </div>
+                        @if($auction->winner)
+                            <div class="winner-message">
+                                <p>Winner: {{ $auction->winner->user ? $auction->winner->user->name : 'No user' }}</p>
+                            </div>
+                        @else
+                            <div class="ended-message">
+                                No bids were placed
+                            </div>
+                        @endif
                     @endif
+                @else
+                    <div class="ended-message">
+                        Auction has ended - no more bids accepted
+                    </div>
+                    @if($auction->winner)
+                        <div class="winner-message">
+                            Winner: {{ $auction->winner->name }}
+                        </div>
+                    @else
+                        <div class="ended-message">
+                            No bids were placed
+                        </div>
+                    @endif
+                @endif
                 </div>
             @endforeach
         </div>
@@ -79,6 +123,12 @@
     <script>
         document.querySelectorAll('.countdown').forEach(function(element) {
             const deadline = new Date(element.getAttribute('data-deadline')).getTime();
+            const now = new Date().getTime();
+            
+            // If already expired, skip creating the countdown
+            if (deadline < now) {
+                return;
+            }
 
             const countdownInterval = setInterval(function() {
                 const now = new Date().getTime();
@@ -89,11 +139,17 @@
                 const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
                 const seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-                element.innerHTML = `<span class="bg-black text-white rounded-md px-2">${days}d</span> <span class="bg-gray-200 rounded-md px-2">${hours}h</span> <span class="bg-black text-white rounded-md px-2">${minutes}m</span> <span class="bg-gray-200 rounded-md px-2">${seconds}s</span>`;
+                element.innerHTML = `
+                    <span class="bg-black text-white rounded-md px-2">${days}d</span>
+                    <span class="bg-gray-200 rounded-md px-2">${hours}h</span>
+                    <span class="bg-black text-white rounded-md px-2">${minutes}m</span>
+                    <span class="bg-gray-200 rounded-md px-2">${seconds}s</span>
+                `;
 
                 if (distance < 0) {
                     clearInterval(countdownInterval);
-                    element.innerHTML = "Auction has ended no more bids.";
+                    // Reload the page to show winner information
+                    window.location.reload();
                 }
             }, 1000);
         });

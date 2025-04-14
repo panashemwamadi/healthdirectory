@@ -66,4 +66,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function bid()
+    {
+        return $this->hasMany(Bid::class);
+    }
 }

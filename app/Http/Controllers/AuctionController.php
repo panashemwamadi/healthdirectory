@@ -4,9 +4,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\AuctionWinnerNotification;
 use App\Models\Auction;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
 
 class AuctionController extends Controller
 {
@@ -67,6 +69,27 @@ public function show(Auction $auction)
 
         return redirect()->route('auctions.index')->with('success', 'Auction created successfully!');
     }
+
+   
+    public function checkAuctions()
+    {
+        $auctions = Auction::where('is_active', true)
+            ->where('deadline', '<=', now())
+            ->with('winner.user') // Eager load the winner and user
+            ->get();
+
+        foreach ($auctions as $auction) {
+            if ($auction->winner) {
+                Mail::to($auction->winner->user->email)->send(new AuctionWinnerNotification($auction));
+            }
+
+            // Optionally deactivate the auction after sending the email
+            $auction->update(['is_active' => false]);
+        }
+
+        return response()->json(['message' => 'Emails sent to winners.']);
+    }
+
 }
 
 

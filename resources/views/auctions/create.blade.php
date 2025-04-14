@@ -17,17 +17,22 @@
         @csrf
 <div class="grid md:grid-cols-3 p-5 w-full gap-4">
         <div class="mb-3">
-            <label for="logo" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Item</label>
+            <label for="logo" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">first image</label>
             <input type="file" id="logo" name="logo" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="coverphoto" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Item</label>
+            <label for="coverphoto" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Second Image</label>
             <input type="file" id="coverphoto" name="coverphoto" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="item" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Item</label>
+            <label for="image" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">Third Image</label>
+            <input type="file" id="image" name="images" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
+        </div>
+
+        <div class="mb-3">
+            <label for="item" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
             <input type="text" id="item" name="item" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
@@ -71,13 +76,10 @@
             <input type="text" id="condition" name="condition" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
-        <div class="mb-3">
-            <label for="image" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">image</label>
-            <input type="file" id="image" name="images" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
-        </div>
+        
 
         <div class="mb-3">
-            <label for="transport" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">transport</label>
+            <label for="transport" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">transport fee</label>
             <input type="text" id="transport" name="transport" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
@@ -87,12 +89,12 @@
         </div>
 
         <div class="mb-3">
-            <label for="lifespan" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">lifespan</label>
+            <label for="lifespan" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">estimated lifespan</label>
             <input type="text" id="lifespan" name="lifespan" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="vat" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">vat</label>
+            <label for="vat" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">vat charged</label>
             <input type="text" id="lifespan" name="vat" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 

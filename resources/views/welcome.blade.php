@@ -1,5 +1,5 @@
 <x-layout>
-    <section class=" bg-blue-950 dark:bg-gray-900 bg-center bg-cover pt-40" style="background-image: url(images/fereri.png)">
+    <section class="panashe bg-blue-950 dark:bg-gray-900 bg-center bg-cover pt-40" style="background-image: url(images/fereri.png)">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
            
         <h1 class='text-xl h-20 md:text-6xl text-blue-800 font-serif font-extrabold'>WELCOME TO GLOW TRACK AUCTIONS</h1>
@@ -99,6 +99,13 @@
                             </div>
                             </div>
                              </div>
+                             <br>
+                             <br>
+                             <br>
+                             <br>
+                             <br>
+                             <br>
+                             <br>
                           
                         </div>
                   </div>
@@ -144,7 +151,7 @@
                 </div> 
                 <div class="grid grid-cols-1 ml-2 md:w-2/3 md:mx-auto lg:w-1/4">
                   
-               <button type="button" class="mt-2 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900"> <a href="/auction">VIEW UPCOMING AUCTIONS</a></button>
+               <button type="button" class="mt-2 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900"> <a href="/auctions">VIEW UPCOMING AUCTIONS</a></button>
               <button type="button" class="mt-2 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900"> <a href="/about">VIEW MORE ABOUT US</a></button>
                 </div>
 
@@ -152,7 +159,80 @@
                 
     </section>
    
+    <h1 class="text-3xl text-center text-blue-900 font-extrabold py-10"><br><br><br>Our Valued Clients</h1>
 
+    <div class="overflow-x-auto whitespace-nowrap py-4">
+        <div class="flex space-x-8">
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (1).png" alt="Client 1" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (2).png" alt="Client 2" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (3).png" alt="Client 3" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (4).png" alt="Client 4" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (22).png" alt="Client 5" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (7).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (8).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (9).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (10).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (11).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (12).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (13).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (14).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (15).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (16).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (23).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (18).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (19).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (20).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+            <div class="flex items-center justify-center w-24 h-24">
+                <img src="images/logo (21).png" alt="Client 6" class="object-contain h-full w-full" />
+            </div>
+        </div>
+    </div>
+    
+    <style>
+        /* Optional styling for smooth scrolling */
+        .overflow-x-auto {
+            scroll-behavior: smooth;
+        }
+    </style>
     <x-carousel-css>
     </x-carousel-css>
     <x-carousel>
@@ -174,12 +254,12 @@
                   @foreach ($auctions as $auction)
                   <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow  ">
                     <a href="#">
-                        <div class="rounded-t-lg bg-cover bg-center h-72"  style="background-image: url(images/boat.jpg)"></div>
+                        <div class="rounded-t-lg bg-cover bg-center h-72"  style="background-image: url('/storage/{{$auction->coverphoto }}')"></div>
 
                     </a>
                     <div class="px-5 pb-5">
                         <a href="#">
-                            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Boat</h5>
+                            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">{{ $auction->product }}</h5>
                         </a>
                         <div class="flex items-center mt-2.5 mb-5">
                             <div class="flex items-center space-x-1 rtl:space-x-reverse">
@@ -202,8 +282,8 @@
                             <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-3">5.0</span>
                         </div>
                         <div class="flex items-center justify-between">
-                            <span class="text-3xl font-bold text-gray-900 dark:text-white">$20.000</span>
-                            <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                            <span class="text-3xl font-bold text-gray-900 dark:text-white">${{ $auction->starting_bid }}</span>
+                            <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">View</a>
                         </div>
                     </div>
                 </div>
@@ -243,7 +323,8 @@
     </div>
     <div class="grid grid-cols-1 ml-2 md:mx-auto md:w-1/4">
                   
-        <button type="button" class="mt-2 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 my-10">SHOW MORE</button>
+                             <br>
+        <button type="button" class="mt-2 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 my-10"><a href="/auctions"> SHOW MORE</a></button>
         </div>
     <script>
     
@@ -315,7 +396,7 @@
                 <p class="my-4">{{ $testimonials->testimonial }}</p>
             </blockquote>
             <figcaption class="flex items-center justify-center ">
-                <img class="rounded-full w-9 h-9" src="/storage/{{ $testimonials->user->cover_photo }}" alt="profile picture" style="object-fit: cover;">
+                <img class="rounded-full w-9 h-9" src="/storage/{{ $testimonials->user->profile_photo }}" alt="profile picture" style="object-fit: cover;">
                 <div class="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                     <div>{{ $testimonials->User->name }}</div>
                     <div class="text-sm text-gray-500 dark:text-gray-400 ">{{ $testimonials->User->email }}</div>
@@ -333,26 +414,7 @@
         <button type="button" class="mt-2 focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900 my-10">SHOW MORE</button>
         </div>
     </div>
-    <div class="fixed bottom-4 left-4">
-        <button type="button" class="focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm p-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900">
-            <a href="/register">sign-up</a>
-        </button>
-    </div>
-    <div class="fixed bottom-4 left-36">
-        <button type="button" class="focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm p-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900">
-            <a href="/auctions"> bidding</a>
-        </button>
-    </div>
+    
 
-    <div class="fixed bottom-20 left-4">
-        <button type="button" class="focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm p-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900">
-            <a href="https://www.facebook.com/profile.php?id=100039214670751">facebook</a>
-        </button>
-    </div>
-
-    <div class="fixed bottom-20 left-36">
-        <button type="button" class="focus:outline-none text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm p-4 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900">
-            <a href="https://wa.me/263772582201">whatsapp</a>
-        </button>
-    </div>
+   
 </x-layout>

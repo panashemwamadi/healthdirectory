@@ -8,13 +8,7 @@
 </head>
 <body class="bg-gray-100">
 
-    <div class="grid md:grid-cols-2 p-5 bg-cover bg-center mx-auto" style="background-image: url('/storage/{{ Auth::user()->cover_photo }}')">
-        <div class="h-96 md:p-2 w-full max-w-md mx-auto p-1 bg-white border border-gray-200 rounded-lg shadow-lg sm:p-8 bg-cover bg-center" style="background-image: url('/storage/{{ Auth::user()->national_id_photo }}')"></div>
-        
-        <div class="h-96 md:p-2 w-full max-w-md mx-auto p-1 bg-white border border-gray-200 rounded-lg shadow-lg sm:p-8 bg-cover bg-center" style="background-image: url('/storage/{{ Auth::user()->cover_photo }}')"></div>
-        
-        <div class="h-36 w-36 md:p-2 max-w-md mx-auto p-1 bg-white border border-gray-200 rounded-full shadow-md sm:p-8 bg-cover bg-center" style="background-image: url('/storage/{{ Auth::user()->profile_photo }}')"></div>
-    </div>
+   
 
     <div class="md:grid grid-cols-4 gap-5 p-10 mt-5 mx-2 border-2 border-gray-200 rounded-lg">
         <div class="h-20 p-4 bg-white border border-gray-200 rounded-lg shadow-md"><p><strong>User Name:</strong> {{ Auth::user()->name }}</p></div>

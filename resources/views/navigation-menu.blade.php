@@ -15,21 +15,15 @@
                     <x-nav-link href="{{ route('welcome') }}" :active="request()->routeIs('welcome')">
                         {{ __('home') }}
                     </x-nav-link>
-                    <x-nav-link href="{{ route('sell') }}" :active="request()->routeIs('sell')">
-                        {{ __('sell') }}
-                    </x-nav-link>
+                   
                     <x-nav-link href="{{ route('buy') }}" :active="request()->routeIs('buy')">
                         {{ __('buy') }}
                     </x-nav-link>
                     <x-nav-link href="{{ route('about') }}" :active="request()->routeIs('about')">
                         {{ __('about') }}
                     </x-nav-link>
-                    <x-nav-link href="{{ route('more') }}" :active="request()->routeIs('more')">
-                        {{ __('more') }}
-                    </x-nav-link>
-                    <x-nav-link href="{{ route('help') }}" :active="request()->routeIs('help')">
-                        {{ __('help') }}
-                    </x-nav-link>
+                   
+                    
                 </div>
             </div>
 

@@ -1,5 +1,5 @@
 <x-layout>
-    <section class="panashe bg-blue-950 dark:bg-gray-900 bg-center bg-cover pt-40" style="background-image: url(images/Glow Banner.jpg)">
+    <section class="panashe bg-blue-950 dark:bg-gray-900 bg-center bg-cover pt-40" style="background-image: url(images/GlowBanner.jpg)">
         <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
            
         <h1 class='text-xl h-20 md:text-6xl text-blue-800 font-serif font-extrabold'>WELCOME TO GLOW TRACK AUCTIONS</h1>

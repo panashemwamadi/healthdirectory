@@ -1,5 +1,5 @@
 <x-layout>
-    <section class="h-96 bg-blue-950 dark:bg-gray-900 bg-center bg-cover panashe" style="background-image: url(images/pantech.png)">
+    <section class="h-96 bg-blue-950 dark:bg-gray-900 bg-center bg-cover panashe" style="background-image: url(images/Glowbanner.jpg)">
     </div>
 
     <main class="m-2">

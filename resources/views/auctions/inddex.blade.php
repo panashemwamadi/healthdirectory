@@ -93,7 +93,8 @@
                         </div>
                         @if($auction->winner)
                             <div class="winner-message">
-                                <p>Winner: {{ $auction->winner->user ? $auction->winner->user->name : 'No user' }}</p>
+                                <p>Sold to: {{ $auction->winner->user ? $auction->winner->user->name : 'No user' }} for {{ $auction->current_bid }}</p>
+                                
                             </div>
                         @else
                             <div class="ended-message">

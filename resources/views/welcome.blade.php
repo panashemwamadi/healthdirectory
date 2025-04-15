@@ -128,7 +128,7 @@
                            @endguest
                            
                            @auth
-                           <div type="button" class="mt-5 font-extralight parallelogram focus:outline-none text-white bg-black/50 border-white border hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900"><a href="/register">search electronics</a></div>
+                           
                            <button type="button" class="mt-1 focus:outline-none parallelogram text-white bg-black/50 border-white border-2 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-900"><a href="/auctions">View Auctions</a></button>  
                            @endauth
                                 

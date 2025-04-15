@@ -1,6 +1,6 @@
 <x-layout>
     
-        <section class="h-96 bg-blue-950 dark:bg-gray-900 bg-center bg-cover" style="background-image: url(images/Glowbanner.jpg)">
+        <section class="h-96 bg-blue-950 dark:bg-gray-900 bg-center bg-cover" style="background-image: url(images/Glowbanner.jpg); height: 100vh">
         </div>
     
         <main class="m-2">

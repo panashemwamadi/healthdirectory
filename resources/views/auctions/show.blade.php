@@ -1,4 +1,4 @@
-<x-layout>
+<x-layouts>
     <div class="h-16 floating-button">
         @if ($auction->is_active && now()->isBefore($auction->deadline))
         <form action="{{ route('bids.store', $auction) }}" method="POST" class="m-5 inline-block">
@@ -87,4 +87,4 @@
             @endforeach
         </div>
     </fieldset>
-</x-layout>
+</x-layouts>

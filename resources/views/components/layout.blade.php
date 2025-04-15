@@ -101,9 +101,9 @@
         <div class="bg-blue-900 rounded-md hiden" id="mobile-menu">
             <div class="space-y-1 px-2 pb-3 pt-2">
                 <a href="/buy" class="block rounded-md bg-gray-900 px-3 py-2 text-xs font-medium text-white" aria-current="page">Buy</a>
-                <a href="/sell" class="block rounded-md px-3 py-2 text-xs font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sell</a>
+               
                 <a href="/about" class="block rounded-md px-3 py-2 text-xs font-medium text-gray-300 hover:bg-gray-700 hover:text-white">About</a>
-                <a href="/more" class="block rounded-md px-3 py-2 text-xs font-medium text-gray-300 hover:bg-gray-700 hover:text-white">More</a>
+
                 <a href="/contact" class="block rounded-md px-3 py-2 text-xs font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Contact</a>
             </div>
         </div>

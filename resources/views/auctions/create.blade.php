@@ -17,84 +17,84 @@
         @csrf
 <div class="grid md:grid-cols-3 p-5 w-full gap-4">
         <div class="mb-3">
-            <label for="logo" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">first image</label>
+            <label for="logo" class="block mb-2 text-sm font-medium text-gray-900">first image</label>
             <input type="file" id="logo" name="logo" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="coverphoto" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Second Image</label>
+            <label for="coverphoto" class="block mb-2 text-sm font-medium text-gray-900">Second Image</label>
             <input type="file" id="coverphoto" name="coverphoto" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="image" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">Third Image</label>
+            <label for="image" class=" block mb-2 text-sm font-medium text-gray-900">Third Image</label>
             <input type="file" id="image" name="images" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="item" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+            <label for="item" class="block mb-2 text-sm font-medium text-gray-900">Name</label>
             <input type="text" id="item" name="item" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="item" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Item Type</label>
+            <label for="item" class="block mb-2 text-sm font-medium text-gray-900">Item Type</label>
             <input type="text" id="item" name="item_type" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="starting_bid" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">Starting Bid</label>
+            <label for="starting_bid" class=" block mb-2 text-sm font-medium text-gray-900">Starting Bid</label>
             <input type="number" id="starting_bid" name="starting_bid" step="0.01" min="0" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="deadline" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">Deadline</label>
+            <label for="deadline" class=" block mb-2 text-sm font-medium text-gray-900">Deadline</label>
             <input type="datetime-local" id="deadline" name="deadline" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="owner" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">Owner</label>
+            <label for="owner" class=" block mb-2 text-sm font-medium text-gray-900">Owner</label>
             <input type="text" id="lowner" name="lowner" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="product" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">Product</label>
+            <label for="product" class=" block mb-2 text-sm font-medium text-gray-900">Product</label>
             <input type="text" id="product" name="product" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="address" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">Address</label>
+            <label for="address" class=" block mb-2 text-sm font-medium text-gray-900">Address</label>
             <input type="text" id="address" name="address" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="phonenumber" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">Phonenumber</label>
+            <label for="phonenumber" class=" block mb-2 text-sm font-medium text-gray-900">Phonenumber</label>
             <input type="text" id="phonenumber" name="phonenumber" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="condition" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">condition</label>
+            <label for="condition" class=" block mb-2 text-sm font-medium text-gray-900">condition</label>
             <input type="text" id="condition" name="condition" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         
 
         <div class="mb-3">
-            <label for="transport" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">transport fee</label>
+            <label for="transport" class=" block mb-2 text-sm font-medium text-gray-900">transport fee</label>
             <input type="text" id="transport" name="transport" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="quantity" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">quantity</label>
+            <label for="quantity" class=" block mb-2 text-sm font-medium text-gray-900">quantity</label>
             <input type="text" id="quantity" name="quantity" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="lifespan" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">estimated lifespan</label>
+            <label for="lifespan" class=" block mb-2 text-sm font-medium text-gray-900">estimated lifespan</label>
             <input type="text" id="lifespan" name="lifespan" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 
         <div class="mb-3">
-            <label for="vat" class=" block mb-2 text-sm font-medium text-gray-900 dark:text-white">vat charged</label>
+            <label for="vat" class=" block mb-2 text-sm font-medium text-gray-900">vat charged</label>
             <input type="text" id="lifespan" name="vat" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 " required>
         </div>
 

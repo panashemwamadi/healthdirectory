@@ -23,9 +23,9 @@
     <a href="#">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center py-10 font-serif"> Who we are </h5>
     </a>
-    <div class="max-w-4xl mx-auto px-6 md:px-12 py-8 text-gray-700 dark:text-gray-300 font-serif">
+    <div class="max-w-4xl mx-auto px-6 md:px-12 py-8 text-gray-700 font-serif">
         <p class="mb-6 text-lg leading-relaxed">
-            We are <strong class="font-semibold text-gray-800 dark:text-gray-100">Glowtrack Investments Private Limited (Glowtrack)</strong>, a contemporary holding company operating to drive progression within the Zimbabwean market, targeting diverse facets of business interests. <strong class="font-semibold text-gray-800 dark:text-gray-100">Glowtrack</strong> was registered for operations in <strong class="font-semibold text-gray-800 dark:text-gray-100">Zimbabwe in 2013</strong>.
+            We are <strong class="font-semibold text-gray-800">Glowtrack Investments Private Limited (Glowtrack)</strong>, a contemporary holding company operating to drive progression within the Zimbabwean market, targeting diverse facets of business interests. <strong class="font-semibold text-gray-800 dark:text-gray-100">Glowtrack</strong> was registered for operations in <strong class="font-semibold text-gray-800 dark:text-gray-100">Zimbabwe in 2013</strong>.
         </p>
     
         <p class="mb-6 text-lg leading-relaxed">
@@ -41,22 +41,22 @@
         </ul>
     
         <p class="mb-6 text-lg leading-relaxed">
-            We have implemented a strategic plan to enable the <strong class="font-semibold text-gray-800 dark:text-gray-100">Glowtrack</strong> brand to grow and become prominent in targeted business areas. We pledge to uphold our corporate values of reliability and professionalism in an engaging manner, ensuring cost-effective operations. To achieve this, <strong class="font-semibold text-gray-800 dark:text-gray-100">Glowtrack</strong> initiatives focus on establishing and nurturing business relationships through open dialogue with partners while implementing the best corporate practices learned over the years.
+            We have implemented a strategic plan to enable the <strong class="font-semibold text-gray-800">Glowtrack</strong> brand to grow and become prominent in targeted business areas. We pledge to uphold our corporate values of reliability and professionalism in an engaging manner, ensuring cost-effective operations. To achieve this, <strong class="font-semibold text-gray-800 dark:text-gray-100">Glowtrack</strong> initiatives focus on establishing and nurturing business relationships through open dialogue with partners while implementing the best corporate practices learned over the years.
         </p>
     
         <p class="mb-6 text-lg leading-relaxed">
             Our business model is centered on being a trusted partner to selected corporates and individuals, helping them access new markets while growing their existing customer base.
         </p>
     
-        <p class="text-center text-xl italic font-semibold text-gray-800 dark:text-gray-100 mt-8">
+        <p class="text-center text-xl italic font-semibold text-gray-800 mt-8">
             “We are Glowtrack Investments, a partner beyond expectations.”
         </p>
     </div>
     
-    <div class="max-w-2xl mx-auto my-8 border-t border-gray-300 dark:border-gray-600"></div>
+    <div class="max-w-2xl mx-auto my-8 border-t border-gray-300"></div>
 
         
-    <div class="max-w-4xl mx-auto px-6 md:px-12 py-8 text-gray-700 dark:text-gray-300 font-serif text-center">
+    <div class="max-w-4xl mx-auto px-6 md:px-12 py-8 text-gray-700 font-serif text-center">
     <!-- Mission Section -->
     <div class="mb-8">
         <h2 class="text-red-900 font-bold text-2xl mb-4">Our Mission</h2>
@@ -108,7 +108,7 @@
     </div>
 </div>
 
-<div class="max-w-2xl mx-auto my-8 border-t border-gray-300 dark:border-gray-600"></div>
+<div class="max-w-2xl mx-auto my-8 border-t border-gray-300"></div>
 </p><br>
     
         
